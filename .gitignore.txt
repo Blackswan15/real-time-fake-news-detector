@@ -1,0 +1,36 @@
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code/IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and outputs
+*.log
+
+# Environment variables or secret keys
+.env
+
+# Model or vectorizer files (if generated)
+*.pkl
+*.joblib
+
+# Ignore data files if needed
+*.csv
+
+# Uvicorn reload cache (optional)
+reload/
